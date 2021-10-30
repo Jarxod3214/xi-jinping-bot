@@ -3,7 +3,7 @@ services:
   bot:
     image: ghcr.io/marnixah/xi-jinping-bot:master
     environment: 
-      TOKEN: "Your really long discord token here"
+      TOKEN: "ccUYQkCjXs0PTe84fGKQRbkLXRaOobAMt5THbL3TUg1Bm15_YTyuk9ePJzNy1GrLtojm9pG98Xra14p8zaNR"
       BACKEND_HOST: backend:8080
       MONGO_URI: mongodb://ccp:xiIsBest@database:27017
     links: 
